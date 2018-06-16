@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abacus", "Abacus\Abacus.csproj", "{7AA35A6F-F1D0-4703-9CA7-2A0366E42D44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abacus.Observables.Blockchain", "Abacus.Blockchain.Observables\Abacus.Observables.Blockchain.csproj", "{6CFEBBD0-B9D9-4257-A636-3DE2DE30FDB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abacus.Extensions", "Abacus.Extensions\Abacus.Extensions.csproj", "{3E5E4784-AA13-4AA4-AD93-8375987ED2B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abacus.Cryptography", "Abacus.Cryptography\Abacus.Cryptography.csproj", "{981AD38F-8129-41E3-82CA-8EC85CBBD72A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abacus.Wallet", "Abacus.Wallet\Abacus.Wallet.csproj", "{9E18095B-7A86-49F3-90AF-668A73DC0189}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abacus.Node", "Abacus.Node\Abacus.Node.csproj", "{E200E5D1-FB9F-4705-9799-D354CAD8F168}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AA35A6F-F1D0-4703-9CA7-2A0366E42D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA35A6F-F1D0-4703-9CA7-2A0366E42D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA35A6F-F1D0-4703-9CA7-2A0366E42D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA35A6F-F1D0-4703-9CA7-2A0366E42D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CFEBBD0-B9D9-4257-A636-3DE2DE30FDB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CFEBBD0-B9D9-4257-A636-3DE2DE30FDB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CFEBBD0-B9D9-4257-A636-3DE2DE30FDB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CFEBBD0-B9D9-4257-A636-3DE2DE30FDB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E5E4784-AA13-4AA4-AD93-8375987ED2B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5E4784-AA13-4AA4-AD93-8375987ED2B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5E4784-AA13-4AA4-AD93-8375987ED2B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5E4784-AA13-4AA4-AD93-8375987ED2B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{981AD38F-8129-41E3-82CA-8EC85CBBD72A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{981AD38F-8129-41E3-82CA-8EC85CBBD72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{981AD38F-8129-41E3-82CA-8EC85CBBD72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{981AD38F-8129-41E3-82CA-8EC85CBBD72A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E18095B-7A86-49F3-90AF-668A73DC0189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E18095B-7A86-49F3-90AF-668A73DC0189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E18095B-7A86-49F3-90AF-668A73DC0189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E18095B-7A86-49F3-90AF-668A73DC0189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E200E5D1-FB9F-4705-9799-D354CAD8F168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E200E5D1-FB9F-4705-9799-D354CAD8F168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E200E5D1-FB9F-4705-9799-D354CAD8F168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E200E5D1-FB9F-4705-9799-D354CAD8F168}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71EBF65F-91A4-40C5-B763-457658B0937A}
+	EndGlobalSection
+EndGlobal

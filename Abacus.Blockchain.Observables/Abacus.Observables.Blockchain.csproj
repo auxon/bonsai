@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;1705;</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Reactive" Version="4.0.0-preview.3.build.380" />
+    <PackageReference Include="System.Reactive.Core" Version="4.0.0-preview.3.build.380" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Abacus.Cryptography\Abacus.Cryptography.csproj" />
+    <ProjectReference Include="..\Abacus.Extensions\Abacus.Extensions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Q.Active">
+      <HintPath>..\..\Qactive\Q.Active\bin\Debug\netstandard2.0\Q.Active.dll</HintPath>
+    </Reference>
+    <Reference Include="Q.Active.Expressions">
+      <HintPath>..\..\Qactive\Q.Active.Expressions\bin\Debug\netstandard2.0\Q.Active.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="Q.Active.Providers.Streaming">
+      <HintPath>..\..\Qactive\Q.Active.Providers.Streaming\bin\Debug\netstandard2.0\Q.Active.Providers.Streaming.dll</HintPath>
+    </Reference>
+    <Reference Include="Q.Active.Providers.Tcp">
+      <HintPath>..\..\Qactive\Q.Active.Providers.Tcp\bin\Debug\netstandard2.0\Q.Active.Providers.Tcp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

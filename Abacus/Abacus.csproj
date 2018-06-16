@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serialize.Linq" Version="1.7.0" />
+    <PackageReference Include="SharpRemote" Version="0.5.91" />
+    <PackageReference Include="System.Reactive" Version="4.0.0-preview.3.build.380" />
+    <PackageReference Include="System.Reactive.Core" Version="4.0.0-preview.3.build.380" />
+    <PackageReference Include="System.Reactive.Interfaces" Version="4.0.0-preview.2.build.380" />
+    <PackageReference Include="System.Runtime.Serialization.Formatters" Version="4.3.0" />
+    <PackageReference Include="System.Security.Permissions" Version="4.5.0-rc1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Abacus.Blockchain.Observables\Abacus.Observables.Blockchain.csproj" />
+    <ProjectReference Include="..\Abacus.Extensions\Abacus.Extensions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BinaryFormatter">
+      <HintPath>..\..\BinaryFormatter\src\BinaryFormatter\bin\Debug\netstandard2.0\BinaryFormatter.dll</HintPath>
+    </Reference>
+    <Reference Include="Q.Active">
+      <HintPath>..\..\Qactive\Q.Active\bin\Debug\netstandard2.0\Q.Active.dll</HintPath>
+    </Reference>
+    <Reference Include="Q.Active.Expressions">
+      <HintPath>..\..\Qactive\Q.Active.Expressions\bin\Debug\netstandard2.0\Q.Active.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="Q.Active.Providers.Streaming">
+      <HintPath>..\..\Qactive\Q.Active.Providers.Streaming\bin\Debug\netstandard2.0\Q.Active.Providers.Streaming.dll</HintPath>
+    </Reference>
+    <Reference Include="Q.Active.Providers.Tcp">
+      <HintPath>..\..\Qactive\Q.Active.Providers.Tcp\bin\Debug\netstandard2.0\Q.Active.Providers.Tcp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
