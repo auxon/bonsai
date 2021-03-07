@@ -1,10 +1,7 @@
-Abacus:  A Bitcoin Software Development Environment
-https://abacus.github.io
-
+Abacus:  A Bitcoin Software Development Environment by Botcoin.com
 Version:  v0.1.0.1
 
-Author:  Auxon -> Auxon0@hotmail.com aka Richard.Hein@gmail.com
-
+Author:  Botcoin.com == RAH@EntangleIT.com / Auxon0@hotmail.com / Richard.Hein@gmail.com
 Paymail:  $auxon11, auxon@moneybutton.com, RichardHein@moneybutton.com
 
 PGP fingerprint:  F6CC D83D DF70 FA93 0AF1 5443 863E C244 E60D AEEC
@@ -17,35 +14,35 @@ The genesis block contains the stem cell instructions.
  
 Planned Features:  
 
-**Peer-to-peer source control system.
+*Peer-to-peer source control system.
 
-**Secured by the Bitcoin blockchain via merge mining.
+*Secured by the Bitcoin blockchain via merge mining.
 
-**Immutable history.
+*Immutable history.
 
-**Automatic payments of royalities to contributers.
+*Automatic payments of royalities to contributers.
 
-**Copyright management.
+*Copyright management.
 
-**Versioning management.
+*Versioning management.
 
-**Advanced code completion and searching capabilities.
+*Advanced code completion and searching capabilities.
 
-**Machine learning.
+*Machine learning.
 
-**Neural Networks.
+*Neural Networks.
 
-**DNA computing simulation.
+*DNA computing simulation.
 
-**Quantum computing simulation.
+*Quantum computing simulation.
 
-**Next generation, machine learning based malware and virus protection.
+*Next generation, machine learning based malware and virus protection.
 
-**Secure multi-party computation using bulletproofs, z-snarks, and partial and fully-homomophic encryption for critical code and data.
+*Secure multi-party computation using bulletproofs, z-snarks, and partial and fully-homomophic encryption for critical code and data.
 
  
  
-**Earn mining rewards by writing:
+*Earn mining rewards by writing:
 
     *Code.
     
@@ -70,7 +67,4 @@ Planned Features:
     
     
 Abacus is in pre-alpha development with plans to release an alpha in November 2021 and a full 1.0 release by January 1, 2022.
-
-
-Abacus was authored by Richard Anthony Hein (https://Twetch.app/u/33/) for https://www.botcoin.com.
 
