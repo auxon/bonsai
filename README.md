@@ -1,12 +1,17 @@
 Abacus:  A Bitcoin Software Development Environment
 https://abacus.github.io
+
 Version:  v0.1.0.1
+
 Author:  Auxon -> Auxon0@hotmail.com aka Richard.Hein@gmail.com
+
 Paymail:  $auxon11, auxon@moneybutton.com, RichardHein@moneybutton.com
+
 PGP fingerprint:  F6CC D83D DF70 FA93 0AF1 5443 863E C244 E60D AEEC
 
 *******************************************************************************
-Abacus is a decentralized software development network built directly on Bitcoin SV.
+*  Abacus is a decentralized software development network built on Bitcoin SV *
+*******************************************************************************
 
 The genesis block contains the stem cell instructions. 
  
