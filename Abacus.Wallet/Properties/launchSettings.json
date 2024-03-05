@@ -8,12 +8,12 @@
     }
   },
   "profiles": {
-"Electron.NET App": {
-"commandName": "Executable",
-"executablePath": "C:\\Program Files\\dotnet\\dotnet.exe",
-"commandLineArgs": "electronize start"
-},
-
+    "Electron.NET App": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files\\dotnet\\dotnet.exe",
+      "commandLineArgs": "electronize start",
+      "environmentVariables": {}
+    },
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
@@ -24,10 +24,10 @@
     "Abacus.Wallet": {
       "commandName": "Project",
       "launchBrowser": true,
+      "applicationUrl": "http://localhost:50865/",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "applicationUrl": "http://localhost:50865/"
+      }
     }
   }
 }

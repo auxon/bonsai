@@ -11,9 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abacus.Extensions", "Abacus
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abacus.Cryptography", "Abacus.Cryptography\Abacus.Cryptography.csproj", "{981AD38F-8129-41E3-82CA-8EC85CBBD72A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abacus.Wallet", "Abacus.Wallet\Abacus.Wallet.csproj", "{9E18095B-7A86-49F3-90AF-668A73DC0189}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abacus.Node", "Abacus.Node\Abacus.Node.csproj", "{E200E5D1-FB9F-4705-9799-D354CAD8F168}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiBlazorNode", "MauiBlazorNode\MauiBlazorNode.csproj", "{73EB7EE4-15D6-4E7D-8E14-75231CC0331E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,19 +35,20 @@ Global
 		{981AD38F-8129-41E3-82CA-8EC85CBBD72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{981AD38F-8129-41E3-82CA-8EC85CBBD72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{981AD38F-8129-41E3-82CA-8EC85CBBD72A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9E18095B-7A86-49F3-90AF-668A73DC0189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9E18095B-7A86-49F3-90AF-668A73DC0189}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9E18095B-7A86-49F3-90AF-668A73DC0189}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9E18095B-7A86-49F3-90AF-668A73DC0189}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E200E5D1-FB9F-4705-9799-D354CAD8F168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E200E5D1-FB9F-4705-9799-D354CAD8F168}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E200E5D1-FB9F-4705-9799-D354CAD8F168}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E200E5D1-FB9F-4705-9799-D354CAD8F168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73EB7EE4-15D6-4E7D-8E14-75231CC0331E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73EB7EE4-15D6-4E7D-8E14-75231CC0331E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73EB7EE4-15D6-4E7D-8E14-75231CC0331E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73EB7EE4-15D6-4E7D-8E14-75231CC0331E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {71EBF65F-91A4-40C5-B763-457658B0937A}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
 	EndGlobalSection
 EndGlobal

@@ -1,11 +1,11 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.IO;
+using System.Text.Json;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
+using System.IO;
 
 namespace Abacus.Extensions
 {
@@ -30,27 +30,17 @@ namespace Abacus.Extensions
 
         public static IEnumerable<byte> Serialize(this object o)
         {
-            var json = JsonConvert.SerializeObject(o, Formatting.Indented, new JsonSerializerSettings { MaxDepth = 2 });
+            var options = new JsonSerializerOptions { WriteIndented = true, MaxDepth = 2 };
+            var json = JsonSerializer.Serialize(o, options);
 
-            var bytes = from c in json.ToCharArray()
-                        from bs in BitConverter.GetBytes(c)
-                        select bs;
-
+            var bytes = Encoding.UTF8.GetBytes(json);
             return bytes;
+
         }
 
         public static T Deserialize<T>(this byte[] bytes)
         {
-            T val;
-
-            using (var tr = new JsonTextReader(new StringReader(bytes.BytesToHex())))
-            {
-                var serializer = new JsonSerializer();
-
-                val = (T)serializer.Deserialize(tr);
-            }
-            
-            return val;
+            return bytes.Deserialize<T>();
         }
     }
 

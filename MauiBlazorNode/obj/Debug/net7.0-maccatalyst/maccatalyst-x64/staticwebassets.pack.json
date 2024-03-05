@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/rah/repos/abacus0/MauiBlazorNode/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/scopedcss/bundle/MauiBlazorNode.styles.css",
+      "PackagePath": "staticwebassets/MauiBlazorNode.styles.css"
+    },
+    {
+      "Id": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/open-iconic/FONT-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
+    },
+    {
+      "Id": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/open-iconic/ICON-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
+    },
+    {
+      "Id": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/open-iconic/README.md",
+      "PackagePath": "staticwebassets/css/open-iconic/README.md"
+    },
+    {
+      "Id": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.eot"
+    },
+    {
+      "Id": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.otf"
+    },
+    {
+      "Id": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.svg"
+    },
+    {
+      "Id": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.ttf"
+    },
+    {
+      "Id": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.woff"
+    },
+    {
+      "Id": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "obj/Debug/net7.0-maccatalyst/maccatalyst-x64/staticwebassets/msbuild.MauiBlazorNode.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0-maccatalyst/maccatalyst-x64/staticwebassets/msbuild.build.MauiBlazorNode.props",
+      "PackagePath": "build\\MauiBlazorNode.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0-maccatalyst/maccatalyst-x64/staticwebassets/msbuild.buildMultiTargeting.MauiBlazorNode.props",
+      "PackagePath": "buildMultiTargeting\\MauiBlazorNode.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0-maccatalyst/maccatalyst-x64/staticwebassets/msbuild.buildTransitive.MauiBlazorNode.props",
+      "PackagePath": "buildTransitive\\MauiBlazorNode.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
