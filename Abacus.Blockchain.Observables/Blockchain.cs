@@ -1,26 +1,48 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Reactive.Linq;
+using Abacus.Observables.Blockchain;
 
-public interface IBitcoinChain {}
+public interface IBitcoin: IObservable<IBlock<IBitcoin>> {
+    string Name { get; }
+    string Symbol { get; }
+    string Description { get; }
+}
 
-public class BSV : IBitcoinChain {
+public class BSV : IBitcoin {
     public string Name => "Bitcoin SV";
     public string Symbol => "BSV";
     public string Description => "Bitcoin SV is a full-node implementation for Bitcoin Cash (BCH) and will maintain the vision of Bitcoin set out by Satoshi Nakamoto’s white paper in 2008: Bitcoin: A Peer-to-Peer Electronic Cash System.";
- }public class BTC : IBitcoinChain {
+
+    public IDisposable Subscribe(IObserver<IBlock<IBitcoin>> observer)
+    {
+        throw new NotImplementedException();
+    }
+}
+public class BTC : IBitcoin {
     public string Name => "Bitcoin";
     public string Symbol => "BTC";
     public string Description => "Bitcoin is a decentralized digital currency...";
+
+    public IDisposable Subscribe(IObserver<IBlock<IBitcoin>> observer)
+    {
+        throw new NotImplementedException();
+    }
 }
 
-public class BCH : IBitcoinChain {
+public class BCH : IBitcoin {
     public string Name => "Bitcoin Cash";
     public string Symbol => "BCH";
     public string Description => "Bitcoin Cash is a peer-to-peer electronic cash system that aims to become sound global money with fast payments, micro fees, privacy, and high transaction capacity (big blocks).";
- }
+
+    public IDisposable Subscribe(IObserver<IBlock<IBitcoin>> observer)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 // This interface represents the contract for a service that can provide observable queries over blockchain entities.
-public interface IBlockchainQueryService<T> where T : IBitcoinChain {
+public interface IBlockchainQueryService<T> where T : IBitcoin {
     IQbservable<T> AsQueryable();
 }
 
@@ -33,7 +55,13 @@ public class BitcoinQueryService : IBlockchainQueryService<BTC> {
     }
 }
 
-public class Blockchain<T> where T : IBitcoinChain, new()
+public class Timechain<T> where T : IChain<T>, new()
+{
+    public DateTime Time { get; set; }
+    public TimeSpan Duration { get; set; }
+}
+
+public class Blockchain<T> where T : Timechain<T>, new()
 {
     public IObservable<string> CreateObservable()
     {

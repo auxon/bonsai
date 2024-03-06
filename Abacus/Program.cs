@@ -70,11 +70,20 @@ namespace Abacus
 
             Console.WriteLine("Mining ... hit CTRL-C to exit.");
 
+            var bitcoinChains = 
+                from bsv in BlockGenerator<Block<BSV>>.Generate(BlockHelper.ParseMagicNumber(Bitcoin.BSV), Configuration.DataDirPath)
+                from bch in BlockGenerator<Block<BCH>>.Generate(BlockHelper.ParseMagicNumber(Bitcoin.BCH), Configuration.DataDirPath)
+                from btc in BlockGenerator<Block<BTC>>.Generate(BlockHelper.ParseMagicNumber(Bitcoin.BTC), Configuration.DataDirPath)
+                select new { bsv, bch, btc };  // Could be any combination of chains
 
-            var blockObservable = BlockGenerator<Block<BSV>>
-                .Generate(BlockHelper.ParseMagicNumber(Bitcoin.BSV), Configuration.DataDirPath)
-                .Do(block =>
-                    Console.WriteLine($"Block: {((Block<BSV>)block).Height}, Hash: {((Block<BSV>)block).Hash}, Previous Hash: {((Block<BSV>)block).PreviousBlockHash}"))
+            bitcoinChains.Do(block => {
+                    Console.WriteLine($"Block: {((Block<BSV>)block.bsv).Height}, Hash: {((Block<BSV>)block.bsv).Hash}, Previous Hash: {((Block<BSV>)block.bsv).PreviousBlockHash}");
+                    block.bsv.Transactions.ForEach(tx => Console.WriteLine($"Transaction: {tx.Hash}, Block: {tx.BlockHash}, Amount: {tx.Amount}"));
+                    Console.WriteLine($"Block: {((Block<BCH>)block.bch).Height}, Hash: {((Block<BCH>)block.bch).Hash}, Previous Hash: {((Block<BCH>)block.bch).PreviousBlockHash}");
+                    block.bch.Transactions.ForEach(tx => Console.WriteLine($"Transaction: {tx.Hash}, Block: {tx.BlockHash}, Amount: {tx.Amount}"));
+                    Console.WriteLine($"Block: {((Block<BTC>)block.btc).Height}, Hash: {((Block<BTC>)block.btc).Hash}, Previous Hash: {((Block<BTC>)block.btc).PreviousBlockHash}");
+                    block.btc.Transactions.ForEach(tx => Console.WriteLine($"Transaction: {tx.Hash}, Block: {tx.BlockHash}, Amount: {tx.Amount}"));
+                })
                 .Do(block =>
                 {
                     var sb = block.Serialize();
