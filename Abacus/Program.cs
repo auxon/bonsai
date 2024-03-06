@@ -71,15 +71,16 @@ namespace Abacus
             Console.WriteLine("Mining ... hit CTRL-C to exit.");
 
 
-            //var blockObservable = BlockGenerator<string>.Generate(Configuration.MAGIC_NUMBER, Configuration.DataDirPath)
-            //    .Do(block =>
-            //        Console.WriteLine($"Block: {((Block<string>)block).Height}, Hash: {((Block<string>)block).Hash}, Previous Hash: {((Block<string>)block).PreviousBlockHash}"))
-            //    .Do(block =>
-            //    {
-            //        var sb = block.Serialize();
-            //        using (var fs = File.Open(Path.Combine(Configuration.DataDirPath, "db.abc"), FileMode.Append))
-            //            fs.Write(sb.ToArray(), 0, sb.Count());
-            //    });
+            var blockObservable = BlockGenerator<Block<BSV>>
+                .Generate(Configuration.MAGIC_NUMBER, Configuration.DataDirPath)
+                .Do(block =>
+                    Console.WriteLine($"Block: {((Block<string>)block).Height}, Hash: {((Block<string>)block).Hash}, Previous Hash: {((Block<string>)block).PreviousBlockHash}"))
+                .Do(block =>
+                {
+                    var sb = block.Serialize();
+                    using (var fs = File.Open(Path.Combine(Configuration.DataDirPath, "db.abc"), FileMode.Append))
+                        fs.Write(sb.ToArray(), 0, sb.Count());
+                });
 
 
             var (serviceIP, clientIP) = (IPAddress.Any, IPAddress.Loopback);
