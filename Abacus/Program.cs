@@ -72,9 +72,9 @@ namespace Abacus
 
 
             var blockObservable = BlockGenerator<Block<BSV>>
-                .Generate(Configuration.MAGIC_NUMBER, Configuration.DataDirPath)
+                .Generate(BlockHelper.ParseMagicNumber(Bitcoin.BSV), Configuration.DataDirPath)
                 .Do(block =>
-                    Console.WriteLine($"Block: {((Block<string>)block).Height}, Hash: {((Block<string>)block).Hash}, Previous Hash: {((Block<string>)block).PreviousBlockHash}"))
+                    Console.WriteLine($"Block: {((Block<BSV>)block).Height}, Hash: {((Block<BSV>)block).Hash}, Previous Hash: {((Block<BSV>)block).PreviousBlockHash}"))
                 .Do(block =>
                 {
                     var sb = block.Serialize();
