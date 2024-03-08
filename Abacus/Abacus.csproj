@@ -8,8 +8,8 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <IntermediateOutputPath>obj\Debug\net7.0</IntermediateOutputPath>
     <OutputPath>bin\Debug\net7.0</OutputPath>
-    <DefineConstants>TRACE;DEBUG;NET;NET7_0;NETCOREAPP</DefineConstants>
-    <WarningLevel>7</WarningLevel>
+    <DefineConstants>TRACE;NET7_0;DEBUG;NET;NET8_0;NETCOREAPP</DefineConstants>
+    <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <IntermediateOutputPath>obj\Release\net7.0</IntermediateOutputPath>

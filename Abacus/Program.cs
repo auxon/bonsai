@@ -38,10 +38,10 @@ namespace Abacus
             throw new NotImplementedException();
         }
 
-        protected override Either<object, Expression> TryEvaluateEnumerable(string name, object value, Type type, IQbservableProtocol protocol)
-        {
-            throw new NotImplementedException();
-        }
+        // protected override Either<object, Expression> TryEvaluateEnumerable(string name, object value, Type type, IQbservableProtocol protocol)
+        // {
+        //     throw new NotImplementedException();
+        // }
 
         protected override Expression TryEvaluateObservable(string name, object value, Type type, IQbservableProtocol protocol)
         {
@@ -52,6 +52,8 @@ namespace Abacus
     public static class Program
     {
         private static readonly CompositeDisposable Disposables = new CompositeDisposable(4);
+
+        using Qactive.Net;
 
         private static IQbservable<IBlock<T>> StartClient<T>(IPAddress clientIP, int clientPort, string clientId)
         {
