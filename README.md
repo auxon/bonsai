@@ -1,7 +1,7 @@
-Abacus:  A Bitcoin Software Development Environment by Botcoin.com
+Bonsai:  A Bitcoin Software Development Environment by EntangleIT.com
 Version:  v0.1.0.1
 
-Author:  Botcoin.com == RAH@EntangleIT.com / Auxon0@hotmail.com / Richard.Hein@gmail.com
+Author:  EntangleIT.com == RAH@EntangleIT.com / Auxon0@hotmail.com / Richard.Hein@gmail.com
 
 Paymail:  $auxon11, auxon@moneybutton.com, RichardHein@moneybutton.com
 
