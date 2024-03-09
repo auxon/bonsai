@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -28,26 +28,24 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Abacus.Blockchain.Observables\Abacus.Observables.Blockchain.csproj" />
-    <ProjectReference Include="..\Abacus.Extensions\Abacus.Extensions.csproj" />
+    <Reference Include="Qactive">
+      <HintPath>..\..\Qactive\Examples\QbservableServer\bin\Debug\bin\Qactive.dll</HintPath>
+    </Reference>
+    <Reference Include="Qactive.Expressions">
+      <HintPath>..\..\Qactive\Examples\QbservableServer\bin\Debug\bin\Qactive.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="Qactive.Providers.Streaming">
+      <HintPath>..\..\Qactive\Examples\QbservableServer\bin\Debug\bin\Qactive.Providers.Streaming.dll</HintPath>
+    </Reference>
+    <Reference Include="Qactive.Providers.Tcp">
+      <HintPath>..\..\Qactive\Examples\QbservableServer\bin\Debug\bin\Qactive.Providers.Tcp.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="BinaryFormatter">
-      <HintPath>..\..\BinaryFormatter\src\BinaryFormatter\bin\Debug\netstandard2.0\BinaryFormatter.dll</HintPath>
-    </Reference>
-    <Reference Include="Q.Active">
-      <HintPath>..\..\Qactive\Q.Active\bin\Debug\netstandard2.0\Q.Active.dll</HintPath>
-    </Reference>
-    <Reference Include="Q.Active.Expressions">
-      <HintPath>..\..\Qactive\Q.Active.Expressions\bin\Debug\netstandard2.0\Q.Active.Expressions.dll</HintPath>
-    </Reference>
-    <Reference Include="Q.Active.Providers.Streaming">
-      <HintPath>..\..\Qactive\Q.Active.Providers.Streaming\bin\Debug\netstandard2.0\Q.Active.Providers.Streaming.dll</HintPath>
-    </Reference>
-    <Reference Include="Q.Active.Providers.Tcp">
-      <HintPath>..\..\Qactive\Q.Active.Providers.Tcp\bin\Debug\netstandard2.0\Q.Active.Providers.Tcp.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\Abacus.Cryptography\Abacus.Cryptography.csproj" />
+    <ProjectReference Include="..\Abacus.Extensions\Abacus.Extensions.csproj" />
+    <ProjectReference Include="..\Abacus.Blockchain.Observables\Abacus.Observables.Blockchain.csproj" />
+    <ProjectReference Include="..\MauiBlazorNode\MauiBlazorNode.csproj" />
   </ItemGroup>
-
 </Project>

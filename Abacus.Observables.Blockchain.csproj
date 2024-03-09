@@ -34,17 +34,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Q.Active">
-      <HintPath>..\..\Qactive\Q.Active\bin\Debug\netstandard2.0\Q.Active.dll</HintPath>
+    <Reference Include="QActive">
+      <HintPath>..\..\Qactive\QActive\bin\Debug\netstandard2.0\QActive.dll</HintPath>
     </Reference>
-    <Reference Include="Q.Active.Expressions">
-      <HintPath>..\..\Qactive\Q.Active.Expressions\bin\Debug\netstandard2.0\Q.Active.Expressions.dll</HintPath>
+    <Reference Include="QActive.Expressions">
+      <HintPath>..\..\Qactive\QActive.Expressions\bin\Debug\netstandard2.0\QActive.Expressions.dll</HintPath>
     </Reference>
-    <Reference Include="Q.Active.Providers.Streaming">
-      <HintPath>..\..\Qactive\Q.Active.Providers.Streaming\bin\Debug\netstandard2.0\Q.Active.Providers.Streaming.dll</HintPath>
+    <Reference Include="QActive.Providers.Streaming">
+      <HintPath>..\..\Qactive\QActive.Providers.Streaming\bin\Debug\netstandard2.0\QActive.Providers.Streaming.dll</HintPath>
     </Reference>
-    <Reference Include="Q.Active.Providers.Tcp">
-      <HintPath>..\..\Qactive\Q.Active.Providers.Tcp\bin\Debug\netstandard2.0\Q.Active.Providers.Tcp.dll</HintPath>
+    <Reference Include="QActive.Providers.Tcp">
+      <HintPath>..\..\Qactive\QActive.Providers.Tcp\bin\Debug\netstandard2.0\QActive.Providers.Tcp.dll</HintPath>
     </Reference>
   </ItemGroup>
 
