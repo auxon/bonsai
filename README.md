@@ -8,7 +8,7 @@ Paymail:  $auxon11, auxon@moneybutton.com, RichardHein@moneybutton.com
 PGP fingerprint:  F6CC D83D DF70 FA93 0AF1 5443 863E C244 E60D AEEC
 
 *******************************************************************************
-*  Abacus is a decentralized software development network built on Bitcoin SV *
+*  Bonsai is a decentralized software development network built on Bitcoin SV *
 *******************************************************************************
 
 The genesis block contains the stem cell instructions. 
@@ -56,7 +56,7 @@ Planned Features:
     *Optimizations, overloads.
     
     
-*Earn mining rewards by operating Abacus nodes:
+*Earn mining rewards by operating Bonsai nodes:
 
     *Long to short-term memory nodes - cache/RAM/SSD/HDD/Tape/Optical storage.
     
@@ -67,15 +67,15 @@ Planned Features:
     *Machine learning nodes.
     
     
-Abacus is in beta development with plans to release an alpha in July 2024 and a full 1.0 release by January 1, 2025.
+Bonsai is in beta development with plans to release an alpha in July 2024 and a full 1.0 release by January 1, 2025.
 
 
 # Project Plan - Updated 2024-03-09.  
 
-To simplify the implementation plan for the features outlined for Abacus, a decentralized software development network built on Bitcoin SV, we can organize the tasks into several core areas. This approach will help in focusing development efforts, managing complexity, and ensuring a comprehensive coverage of the system's goals.
+To simplify the implementation plan for the features outlined for Bonsai, a decentralized software development network built on Bitcoin SV, we can organize the tasks into several core areas. This approach will help in focusing development efforts, managing complexity, and ensuring a comprehensive coverage of the system's goals.
 
 ### 1. Core Blockchain Integration
-- **Merge Mining with Bitcoin SV:** Research and implement the technical details of merge mining to secure Abacus with the Bitcoin blockchain.
+- **Merge Mining with Bitcoin SV:** Research and implement the technical details of merge mining to secure Bonsai with the Bitcoin blockchain.
 - **Immutable History via Blockchain Transactions:** Design and implement the structure for storing development activities as transactions on the blockchain.
 
 ### 2. Development Tools and Infrastructure
@@ -96,7 +96,7 @@ To simplify the implementation plan for the features outlined for Abacus, a dece
 - **Mining Rewards System:** Design and implement the rewards system for various contributions, including code, documentation, and node operation.
 
 ### 6. Community and Governance
-- **Contribution and Governance Models:** Establish clear guidelines for contributions, governance, and decision-making processes within the Abacus network.
+- **Contribution and Governance Models:** Establish clear guidelines for contributions, governance, and decision-making processes within the Bonsai network.
 - **Localization & Globalization:** Ensure tools and platforms support internationalization, allowing for global participation and use.
 
 ### 7. Project Management and Milestones
@@ -108,13 +108,13 @@ To simplify the implementation plan for the features outlined for Abacus, a dece
 - **Community Involvement:** Engage with the developer community early and often to gather feedback, contributions, and to foster a collaborative ecosystem.
 - **Security and Scalability First:** Prioritize security and scalability in the design and development phases to ensure the network can handle growth and resist attacks.
 
-By structuring the development plan into these focused areas, the Abacus team can tackle the complexity of building a comprehensive decentralized development environment while ensuring that each component integrates seamlessly to fulfill the project's ambitious goals.
+By structuring the development plan into these focused areas, the Bonsai team can tackle the complexity of building a comprehensive decentralized development environment while ensuring that each component integrates seamlessly to fulfill the project's ambitious goals.
 
 
-# BITWORK and Abacus Integration 
-Integrating Bitwork into the Abacus system can be a strategic move to enhance its capabilities, especially when it comes to simplifying interactions with the Bitcoin network. Since Abacus is a decentralized software development network built on Bitcoin SV, and Bitwork provides an easy yet powerful way to process data from the Bitcoin network, it seems like a natural fit.
+# BITWORK and BONSAI Integration 
+Integrating Bitwork into the Bonsai system can be a strategic move to enhance its capabilities, especially when it comes to simplifying interactions with the Bitcoin network. Since Bonsai is a decentralized software development network built on Bitcoin SV, and Bitwork provides an easy yet powerful way to process data from the Bitcoin network, it seems like a natural fit.
 
-Here’s a high-level approach on how you might consider using Bitwork to fulfill the planned features of Abacus:
+Here’s a high-level approach on how you might consider using Bitwork to fulfill the planned features of Bonsai:
 
 ### Peer-to-Peer Source Control System:
 Utilize Bitwork’s simplified network interaction to handle data retrieval and submission to the Bitcoin SV blockchain, which can serve as the backbone for a decentralized version control system.
@@ -135,30 +135,30 @@ Although this feature is more UI and IDE focused, Bitwork’s data fetching capa
 For these features, you may need to build specific components that are not directly related to Bitwork’s current functionality but can use data obtained from Bitwork for training ML models or simulating neural network behaviors.
 
 ### DNA Computing & Quantum Computing Simulation:
-These advanced simulations would likely be separate modules within Abacus that utilize blockchain data fetched via Bitwork for various simulation parameters or initialization data.
+These advanced simulations would likely be separate modules within Bonsai that utilize blockchain data fetched via Bitwork for various simulation parameters or initialization data.
 
 ### Security Features:
-Bitwork’s direct interaction with the Bitcoin network can be leveraged to create a secure layer within Abacus for handling blockchain-based operations. Adding encryption and privacy measures will be necessary here.
+Bitwork’s direct interaction with the Bitcoin network can be leveraged to create a secure layer within Bonsai for handling blockchain-based operations. Adding encryption and privacy measures will be necessary here.
 
 ### Node Operations:
-You could use Bitwork to manage node-specific data, such as the current state of the blockchain, mempool transactions, and more, providing a real-time view for node operators within Abacus.
+You could use Bitwork to manage node-specific data, such as the current state of the blockchain, mempool transactions, and more, providing a real-time view for node operators within Bonsai.
 
-For the integration of Abacus and Bitwork, the following technical steps may be considered:
+For the integration of Bonsai and Bitwork, the following technical steps may be considered:
 
-1. **API Extension/Creation**: Extend Bitwork’s API or create a new layer to handle specific Abacus functionalities that are not currently part of Bitwork, such as file versioning, contributor royalties, and copyright management.
+1. **API Extension/Creation**: Extend Bitwork’s API or create a new layer to handle specific Bonsai functionalities that are not currently part of Bitwork, such as file versioning, contributor royalties, and copyright management.
 
-2. **Middleware Development**: Develop middleware for Bitwork to handle specific data processing steps required by Abacus, like parsing blockchain data into file versions or project milestones.
+2. **Middleware Development**: Develop middleware for Bitwork to handle specific data processing steps required by Bonsai, like parsing blockchain data into file versions or project milestones.
 
-3. **Smart Contract Integration**: Integrate smart contract execution and monitoring within Bitwork to automate Abacus-specific processes like royalty distributions.
+3. **Smart Contract Integration**: Integrate smart contract execution and monitoring within Bitwork to automate Bonsai-specific processes like royalty distributions.
 
-4. **UI Integration**: Design and implement user interfaces in Abacus that interact with Bitwork’s API to provide seamless access to the underlying Bitcoin SV network operations.
+4. **UI Integration**: Design and implement user interfaces in Bonsai that interact with Bitwork’s API to provide seamless access to the underlying Bitcoin SV network operations.
 
-5. **Customization for Scale**: Customize Bitwork to handle the high throughput and data demands anticipated for Abacus, especially considering the potential scale of Bitcoin SV's block size.
+5. **Customization for Scale**: Customize Bitwork to handle the high throughput and data demands anticipated for Bonsai, especially considering the potential scale of Bitcoin SV's block size.
 
-6. **Testing and Validation**: Thoroughly test the integrated system to ensure that Bitwork's data fetching and real-time blockchain interaction meet the needs of Abacus.
+6. **Testing and Validation**: Thoroughly test the integrated system to ensure that Bitwork's data fetching and real-time blockchain interaction meet the needs of Bonsai.
 
-7. **Documentation and Tutorials**: Update documentation and create tutorials that clearly explain how to use the Abacus features powered by Bitwork.
+7. **Documentation and Tutorials**: Update documentation and create tutorials that clearly explain how to use the Bonsai features powered by Bitwork.
 
 8. **Performance Optimization**: Continuously monitor and optimize the performance of the integrated system, especially concerning the large scale of data involved with Bitcoin SV.
 
-By combining the strengths of Bitwork's networking simplicity and Abacus's comprehensive development network goals, you could create a robust and user-friendly system that enhances the developer experience on the Bitcoin SV blockchain.
+By combining the strengths of Bitwork's networking simplicity and Bonsai's comprehensive development network goals, you could create a robust and user-friendly system that enhances the developer experience on the Bitcoin SV blockchain.
