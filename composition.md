@@ -1,4 +1,4 @@
-# Composing Multiple Blockchains in Abacus
+# Composing Multiple Blockchains in Bonsai
 
 Abacus provides the functionality to create individual `Blockchain<T>` instances for various cryptocurrencies. Additionally, Abacus enables the composition of these blockchains into a single, cohesive data stream. This document outlines the process of composing multiple blockchains and the subsequent handling of their data.
 
