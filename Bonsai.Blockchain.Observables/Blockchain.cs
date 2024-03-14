@@ -135,11 +135,11 @@ public class Blockchain<T>
                 switch (chainType)
                 {
                     case nameof(BSV):
-                        observer.OnNext( Transaction<string, string>.("Initializing BSV blockchain processing..."));
-                        // Add BSV-specific processing here
+                        observer.OnNext(/* todo */);
+                            // Add BSV-specific processing here
                         break;
                     case nameof(BTC):
-                        observer.OnNext("Initializing BTC blockchain processing...");
+                        observer.OnNext(("","Initializing BTC blockchain processing..."));
                         // Add BTC-specific processing here
                         break;
                     case nameof(BCH):
