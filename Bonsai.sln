@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bonsai.CLI", "Abacus\Bonsai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonsai.Observables", "Abacus.Blockchain.Observables\Bonsai.Observables.csproj", "{6CFEBBD0-B9D9-4257-A636-3DE2DE30FDB6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abacus.Extensions", "Abacus.Extensions\Abacus.Extensions.csproj", "{3E5E4784-AA13-4AA4-AD93-8375987ED2B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bonsai.Extensions", "Abacus.Extensions\Bonsai.Extensions.csproj", "{3E5E4784-AA13-4AA4-AD93-8375987ED2B1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abacus.Cryptography", "Abacus.Cryptography\Abacus.Cryptography.csproj", "{981AD38F-8129-41E3-82CA-8EC85CBBD72A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bonsai.Cryptography", "Abacus.Cryptography\Bonsai.Cryptography.csproj", "{981AD38F-8129-41E3-82CA-8EC85CBBD72A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiBlazorNode", "MauiBlazorNode\MauiBlazorNode.csproj", "{73EB7EE4-15D6-4E7D-8E14-75231CC0331E}"
 EndProject

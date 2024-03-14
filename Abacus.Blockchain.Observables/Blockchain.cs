@@ -59,13 +59,13 @@ public class BCH<TId, TData> : IBitcoin<TId, TData> {
 }
 
 // This interface represents the contract for a service that can provide observable queries over blockchain entities.
-public interface IBlockchainQueryService<T> where T : IBitcoin {
-    IQbservable<T> AsQueryable();
+public interface IBlockchainQueryService<TId, TData> where TId : IBitcoin<TId, TData>{
+    IQbservable<TData> AsQueryable();
 }
 
 // An example implementation for Bitcoin. This would need to be fleshed out with actual logic for observing blockchain data.
-public class BitcoinQueryService : IBlockchainQueryService<BTC> {
-    public IQbservable<BTC> AsQueryable() {
+public class BitcoinQueryService<TId, TData> : IBlockchainQueryService<BTC<TId, TData>> {
+    public IQbservable<BTC<TId, TData>> AsQueryable() {
         // Here you would return an IQbservable that represents your live, queryable blockchain data.
         // This is a conceptual placeholder.
         throw new NotImplementedException();
@@ -96,7 +96,7 @@ public interface ITransaction<TId, TData>
     TId GetId();
     TId SetId(TId input);
     TId SetData(TData input);
-    TData GetData(TId ());
+    TData GetData();
 }
 
 public class Blockchain<T>
