@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vyKYe3r0uZARPT1R+pJ5TGtZFsJ20xodRUB/b565r8pnJipgk02qu05gDgj1I1/iar+541BgG+LEHGmvUFXNIQ==",
+  "dgSpecHash": "tPpOLK39REyfrJmjBhAkeEmmS5unfEOXEoAUcQcUbDcaSgq/CAZeKRTxvftMS7EVbyZnhiNFLeaXkeFLb2OLHA==",
   "success": true,
-  "projectFilePath": "/Users/rah/repos/abacus0/MauiBlazorNode/MauiBlazorNode.csproj",
+  "projectFilePath": "/Users/rah/repos/bonsai/MauiBlazorNode/MauiBlazorNode.csproj",
   "expectedPackageFiles": [
     "/Users/rah/.nuget/packages/googlegson/2.9.1.1/googlegson.2.9.1.1.nupkg.sha512",
     "/Users/rah/.nuget/packages/microsoft.aspnetcore.authorization/7.0.11/microsoft.aspnetcore.authorization.7.0.11.nupkg.sha512",

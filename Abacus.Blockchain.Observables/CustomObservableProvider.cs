@@ -2,7 +2,7 @@
 using System.Linq.Expressions;
 using IQbservableProvider = System.Reactive.Linq.IQbservableProvider;
 
-namespace Abacus.Observables
+namespace Bonsai.Observables
 {
 public class CustomObservableProvider : IQbservableProvider
 {

@@ -7,7 +7,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.IO;
 
-namespace Abacus.Extensions
+namespace Bonsai.Extensions
 {
     public static class ByteAndHexExtensions
     {

@@ -2,11 +2,11 @@
 using System.IO;
 using System.Net;
 
-namespace Abacus.Observables.Blockchain
+namespace Bonsai.Observables.Blockchain
 {
     public static class Configuration
     {
-        public const int MAGIC_NUMBER = 0x07770777;
+        public const int MAGIC_NUMBER = 0x87778777;
         public static string AppDataPath => Environment.GetEnvironmentVariable("APPDATA") ?? Environment.CurrentDirectory;
         public static string DataDirPath => Environment.GetEnvironmentVariable("ABACUS_DATADIR") ?? Path.Combine(AppDataPath, "abacus", "datadir");
         public static string DataFilePath => Path.Combine(Configuration.DataDirPath, "db.abc");

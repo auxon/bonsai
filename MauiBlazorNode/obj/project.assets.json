@@ -6375,11 +6375,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rah/repos/abacus0/MauiBlazorNode/MauiBlazorNode.csproj",
+      "projectUniqueName": "/Users/rah/repos/bonsai/MauiBlazorNode/MauiBlazorNode.csproj",
       "projectName": "MauiBlazorNode",
-      "projectPath": "/Users/rah/repos/abacus0/MauiBlazorNode/MauiBlazorNode.csproj",
+      "projectPath": "/Users/rah/repos/bonsai/MauiBlazorNode/MauiBlazorNode.csproj",
       "packagesPath": "/Users/rah/.nuget/packages/",
-      "outputPath": "/Users/rah/repos/abacus0/MauiBlazorNode/obj/",
+      "outputPath": "/Users/rah/repos/bonsai/MauiBlazorNode/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [

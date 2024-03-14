@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Abacus.Observables.Blockchain
+namespace Bonsai.Observables.Blockchain
 {
     public interface IBlock<T>
     {

@@ -1,4 +1,4 @@
-﻿using Abacus.Extensions;
+﻿using Bonsai.Extensions;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -9,7 +9,7 @@ using System.Reactive.Linq;
 using System.Reactive.Subjects;
 using System.Text;
 
-namespace Abacus.Observables.Blockchain
+namespace Bonsai.Observables.Blockchain
 {
     public static class BlockGenerator<T>
     {
@@ -119,26 +119,23 @@ namespace Abacus.Observables.Blockchain
             Func<IObservable<IBlock<T>>>
             loadGenesisChain = () =>
             {
-                //TODO:  Implement loading.
-                return null;
+                if (File.Exists(Configuration.DataFilePath))
+                {
+                    using (var reader = new BinaryReader(File.OpenRead(Configuration.DataFilePath)))
+                    {
+                        var size = default(Block<string>).Serialize().Count();
+                        var readBytes = new byte[size];
+                        do
+                        {
 
-                //if (File.Exists(Configuration.DataFilePath))
-                //{
-                //    using (var reader = new BinaryReader(File.OpenRead(Configuration.DataFilePath)))
-                //    {
-                //        var size = default(Block<string>).Serialize().Count();
-                //        var readBytes = new byte[size];
-                //        do
-                //        {
-
-                //        } while (reader.Read() > 0);
-                //        return Observable.Return<IBlock<T>>(default(Block<T>)); // TODO:  Finish this.
-                //    }
-                //}
-                //else
-                //{
-                //    return Observable.Empty<IBlock<T>>();
-                //}
+                        } while (reader.Read() > 0);
+                        return Observable.Return<IBlock<T>>(default(Block<T>)); // TODO:  Finish this.
+                    }
+                }
+                else
+                {
+                    return Observable.Empty<IBlock<T>>();
+                }
             };
 
             Func<T> getData = () => default(T); // TODO:  Implement.

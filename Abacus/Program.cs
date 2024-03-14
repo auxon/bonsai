@@ -1,5 +1,5 @@
-﻿using Abacus.Extensions;
-using Abacus.Observables.Blockchain;
+﻿using Bonsai.Extensions;
+using Bonsai.Observables.Blockchain;
 using Qactive;
 using System;
 using System.Collections.Generic;
@@ -19,7 +19,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Abacus
+namespace Bonsai
 {
     internal class AbacusEvaluator : LocalEvaluator
     {
@@ -53,8 +53,6 @@ namespace Abacus
     {
         private static readonly CompositeDisposable Disposables = new CompositeDisposable(4);
 
-        using Qactive.Net;
-
         private static IQbservable<IBlock<T>> StartClient<T>(IPAddress clientIP, int clientPort, string clientId)
         {
             var client = new TcpQbservableClient<IBlock<T>>(clientIP, clientPort, typeof(IBlock<>));
@@ -66,7 +64,7 @@ namespace Abacus
 
         public static void Main(string[] args)
         {
-            Console.Title = "Abacus";
+            Console.Title = "Bonsai";
 
             Directory.CreateDirectory(Configuration.DataDirPath);
 
@@ -129,7 +127,7 @@ namespace Abacus
                   () => Console.WriteLine("This will never be printed because a service host never completes."));
             }
 
-            using (var serviceDisposable = Start<string>(new TraceSource("Abacus", SourceLevels.Information)))
+            using (var serviceDisposable = Start<string>(new TraceSource("Bonsai", SourceLevels.Information)))
             {
 
                 //var service = blockObservable.ServeQbservableTcp(new IPEndPoint(serviceIP, servicePort), new QbservableServiceOptions

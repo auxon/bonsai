@@ -2,8 +2,10 @@
 using System.ComponentModel;
 using System.Reactive.Linq;
 using System.Linq.Expressions;
-using Abacus.Observables.Blockchain;
+using Bonsai.Observables.Blockchain;
 using System.Net.Http.Headers;
+using System.Security.Cryptography;
+using System.Xml.Linq;
 
 public interface IBitcoin<TId, TData> : IQbservable<IBlock<ITransaction<TId, TData>>> 
 {}
@@ -12,23 +14,14 @@ public class BSV<TId, TData> : IBitcoin<TId, TData> {
     public string Name => "Bitcoin SV";
     public string Symbol => "BSV";
 
-    // Implement the missing Provider property
-    IQbservableProvider IQbservable<IBlock<ITransaction<TId, TData>>>.Provider => new NotImplementedQueryableProvider();
+    public IDisposable Subscribe(IObserver<IBlock<ITransaction<TId, TData>>> observer)
+    {
+        // Similar placeholder implementation as in BSV<TId, TData>.
+        observer.OnNext(default(IBlock<ITransaction<TId, TData>>));
+        observer.OnCompleted();
+        return System.Reactive.Disposables.Disposable.Create(() => Console.WriteLine("Observer has unsubscribed"));
+    }
 
-    // Existing implementation continues here...
-}
-
-    Type IQbservable<IBlock<ITransaction<TId, TData>>>.ElementType => typeof(IBlock<ITransaction<TId, TData>>);
-
-    IQbservableProvider IQbservable<IBlock<ITransaction<TId, TData>>>.Provider => MediaTypeWithQualityHeaderValue(), new NotImplementedQueryableProvider();
-    Expression IQbservable<IBlock<ITransaction<TId, TData>>>.Expression => Expression.Constant(this);
-}
-public class BSV<TId, TData> : IBitcoin<TId, TData> {
-    public string Name => "Bitcoin SV";
-    public string Symbol => "BSV";
-
-    Type IQbservable<IBlock<ITransaction<TId, TData>>>.ElementType => typeof(IBlock<ITransaction<TId, TData>>);
-    ...
 }
 public class BTC<TId, TData> : IBitcoin<TId, TData> {
     public string Name => "Bitcoin";
@@ -43,21 +36,26 @@ public class BTC<TId, TData> : IBitcoin<TId, TData> {
         return System.Reactive.Disposables.Disposable.Create(() => Console.WriteLine("Observer has unsubscribed"));
     }
 
-    Type IQbservable<IBlock<ITransaction<TId, TData>>>.ElementType => typeof(IBlock<ITransaction<TId, TData>>);
-
-    IQbservableProvider IQbservable<IBlock<ITransaction<TId, TData>>>.Provider => new NotImplementedQueryableProvider();
-    Expression IQbservable<IBlock<ITransaction<TId, TData>>>.Expression => Expression.Constant(this);
+    public Type ElementType => typeof(IBlock<ITransaction<TId, TData>>);
+    public IQbservableProvider Provider => new NotImplementedQueryableProvider();
+    public Expression Expression => Expression.Constant(this);
 }
 
-public class BCH : IBitcoin {
+public class BCH<TId, TData> : IBitcoin<TId, TData> {
     public string Name => "Bitcoin Cash";
     public string Symbol => "BCH";
     public string Description => "Bitcoin Cash is a peer-to-peer electronic cash system that aims to become sound global money with fast payments, micro fees, privacy, and high transaction capacity (big blocks).";
-
-    public IDisposable Subscribe(IObserver<IBlock<IBitcoin>> observer)
+    public IDisposable Subscribe(IObserver<IBlock<ITransaction<TId, TData>>> observer)
     {
-        throw new NotImplementedException();
+        // Similar placeholder implementation as in BSV<TId, TData>.
+        observer.OnNext(default(IBlock<ITransaction<TId, TData>>));
+        observer.OnCompleted();
+        return System.Reactive.Disposables.Disposable.Create(() => Console.WriteLine("Observer has unsubscribed"));
     }
+
+    public Type ElementType => typeof(IBlock<ITransaction<TId, TData>>);
+    public IQbservableProvider Provider => new NotImplementedQueryableProvider();
+    public Expression Expression => Expression.Constant(this);
 }
 
 // This interface represents the contract for a service that can provide observable queries over blockchain entities.
@@ -84,26 +82,28 @@ public class Timechain<TId, TData> where TId : IChain<TId, TData>, new()
     public DateTime Time { get; set; }
     public TimeSpan Duration { get; set; }
 }
+
 public interface IBlock<TId, TData> where TId : ITransaction<TId, TData>
 {
     long GetHeight();
     string GetHash();
-    T SetData(T input);
-    T GetData();
+    TId SetData(TData input);
+    TData GetData();
 }
 
-public interface ITransaction<T>
+public interface ITransaction<TId, TData>
 {
-    T GetTransactionId();
-    T SetData(T input);
-    T GetData();
+    TId GetId();
+    TId SetId(TId input);
+    TId SetData(TData input);
+    TData GetData(TId ());
 }
 
-public class Blockchain<T> where T : Timechain<T>, new()
+public class Blockchain<T>
 {
-    public IObservable<string> CreateObservable()
+    public IObservable<T> CreateObservable()
     {
-        return Observable.Create<string>(observer =>
+        return Observable.Create<T>(observer =>
         {
             try
             {

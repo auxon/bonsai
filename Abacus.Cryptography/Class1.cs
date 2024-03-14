@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Abacus.Cryptography
+namespace Bonsai.Cryptography
 {
     public class Class1
     {

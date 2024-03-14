@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "Abacus.Extensions": {
+    "Bonsai.Extensions": {
       "commandName": "Project"
     }
   }

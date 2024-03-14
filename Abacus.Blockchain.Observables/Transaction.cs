@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Abacus.Observables.Blockchain
+namespace Bonsai.Observables.Blockchain
 {
     public interface ITransaction<TId, TData>
     {

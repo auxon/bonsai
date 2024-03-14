@@ -9,41 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MauiBlazorNode
 build_property.RootNamespace = MauiBlazorNode
-build_property.ProjectDir = /Users/rah/repos/abacus0/MauiBlazorNode/
+build_property.ProjectDir = /Users/rah/repos/bonsai/MauiBlazorNode/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/rah/repos/abacus0/MauiBlazorNode
+build_property.MSBuildProjectDirectory = /Users/rah/repos/bonsai/MauiBlazorNode
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/rah/repos/abacus0/MauiBlazorNode/Main.razor]
+[/Users/rah/repos/bonsai/MauiBlazorNode/Main.razor]
 build_metadata.AdditionalFiles.TargetPath = TWFpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/rah/repos/abacus0/MauiBlazorNode/Pages/Counter.razor]
+[/Users/rah/repos/bonsai/MauiBlazorNode/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/rah/repos/abacus0/MauiBlazorNode/Pages/FetchData.razor]
+[/Users/rah/repos/bonsai/MauiBlazorNode/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/rah/repos/abacus0/MauiBlazorNode/Pages/Index.razor]
+[/Users/rah/repos/bonsai/MauiBlazorNode/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/rah/repos/abacus0/MauiBlazorNode/Shared/SurveyPrompt.razor]
+[/Users/rah/repos/bonsai/MauiBlazorNode/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/rah/repos/abacus0/MauiBlazorNode/_Imports.razor]
+[/Users/rah/repos/bonsai/MauiBlazorNode/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/rah/repos/abacus0/MauiBlazorNode/Shared/MainLayout.razor]
+[/Users/rah/repos/bonsai/MauiBlazorNode/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-oq7846zel2
 
-[/Users/rah/repos/abacus0/MauiBlazorNode/Shared/NavMenu.razor]
+[/Users/rah/repos/bonsai/MauiBlazorNode/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-npzm2j1ti7

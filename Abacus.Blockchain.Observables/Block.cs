@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
 
-namespace Abacus.Observables.Blockchain
+namespace Bonsai.Observables.Blockchain
 {
     public static class BlockHelper
     {
@@ -20,7 +20,7 @@ namespace Abacus.Observables.Blockchain
     }
 
     [Serializable]
-    public class Block<T> : IBlock<T>
+    public class Block<T> : IBlock<T>, IObservable<T>
     {
         public uint MagicNumber => GetMagicNumberForType();
         public long Height;
