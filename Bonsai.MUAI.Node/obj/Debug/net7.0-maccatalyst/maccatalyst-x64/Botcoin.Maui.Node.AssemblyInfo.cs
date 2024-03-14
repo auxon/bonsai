@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Botcoin.Maui.Node")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d7dcace9fc7dbc6b92acd0134d90f21ba8ba7adc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f459e7c5f6bb7aca1335060c5d1b182241d0fb41")]
 [assembly: System.Reflection.AssemblyProductAttribute("Botcoin.Maui.Node")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Botcoin.Maui.Node")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

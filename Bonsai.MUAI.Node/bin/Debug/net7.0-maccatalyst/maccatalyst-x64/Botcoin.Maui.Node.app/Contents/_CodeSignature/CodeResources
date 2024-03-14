@@ -12,10 +12,6 @@
 		<data>
 		id6MaMGyEekpFB+p4EgeflJ/UBk=
 		</data>
-		<key>Resources/MauiInfo.plist</key>
-		<data>
-		A/74dbGgxu/fUONI00Bycn7+qco=
-		</data>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<data>
 		oowkf1sL6T19nanXUObgmuayWqM=
@@ -111,14 +107,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pnc698m69UPc0bND0O6PylbrjLpUcgaTl/x1G0IyYfg=
+			kyZmg6/geR+RJAaMVVTmwVRHYWEiS5CIqQs2dZItk0g=
 			</data>
 		</dict>
 		<key>MonoBundle/Botcoin.Maui.Node.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ys8dz2QULLEecfIwGtql1knDMkZOnkjs9yC4rqhtDWY=
+			o4qS201j/feCy0/ZV/++8xlKiKlwidiCsc8H1fzOCz8=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.AspNetCore.Authorization.dll</key>
@@ -1561,13 +1557,6 @@
 			<key>hash2</key>
 			<data>
 			glKkuFrwW9isbSa+apx74H5v9KhefLHuBUL3xi8GPWI=
-			</data>
-		</dict>
-		<key>Resources/MauiInfo.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UEORARmYMQB21vcObyk2tL7rhjGOSCGHQz3UGRUssW0=
 			</data>
 		</dict>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>

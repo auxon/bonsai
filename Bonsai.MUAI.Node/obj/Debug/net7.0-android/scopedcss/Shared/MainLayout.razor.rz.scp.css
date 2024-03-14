@@ -1,18 +1,18 @@
-.page[b-cxkrjcrcky] {
+.page[b-vikjpeo9wq] {
     position: relative;
     display: flex;
     flex-direction: column;
 }
 
-main[b-cxkrjcrcky] {
+main[b-vikjpeo9wq] {
     flex: 1;
 }
 
-.sidebar[b-cxkrjcrcky] {
+.sidebar[b-vikjpeo9wq] {
     background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
 }
 
-.top-row[b-cxkrjcrcky] {
+.top-row[b-vikjpeo9wq] {
     background-color: #f7f7f7;
     border-bottom: 1px solid #d6d5d5;
     justify-content: flex-end;
@@ -21,54 +21,54 @@ main[b-cxkrjcrcky] {
     align-items: center;
 }
 
-    .top-row[b-cxkrjcrcky]  a, .top-row[b-cxkrjcrcky]  .btn-link {
+    .top-row[b-vikjpeo9wq]  a, .top-row[b-vikjpeo9wq]  .btn-link {
         white-space: nowrap;
         margin-left: 1.5rem;
         text-decoration: none;
     }
 
-    .top-row[b-cxkrjcrcky]  a:hover, .top-row[b-cxkrjcrcky]  .btn-link:hover {
+    .top-row[b-vikjpeo9wq]  a:hover, .top-row[b-vikjpeo9wq]  .btn-link:hover {
         text-decoration: underline;
     }
 
-    .top-row[b-cxkrjcrcky]  a:first-child {
+    .top-row[b-vikjpeo9wq]  a:first-child {
         overflow: hidden;
         text-overflow: ellipsis;
     }
 
 @media (max-width: 640.98px) {
-    .top-row:not(.auth)[b-cxkrjcrcky] {
+    .top-row:not(.auth)[b-vikjpeo9wq] {
         display: none;
     }
 
-    .top-row.auth[b-cxkrjcrcky] {
+    .top-row.auth[b-vikjpeo9wq] {
         justify-content: space-between;
     }
 
-    .top-row[b-cxkrjcrcky]  a, .top-row[b-cxkrjcrcky]  .btn-link {
+    .top-row[b-vikjpeo9wq]  a, .top-row[b-vikjpeo9wq]  .btn-link {
         margin-left: 0;
     }
 }
 
 @media (min-width: 641px) {
-    .page[b-cxkrjcrcky] {
+    .page[b-vikjpeo9wq] {
         flex-direction: row;
     }
 
-    .sidebar[b-cxkrjcrcky] {
+    .sidebar[b-vikjpeo9wq] {
         width: 250px;
         height: 100vh;
         position: sticky;
         top: 0;
     }
 
-    .top-row[b-cxkrjcrcky] {
+    .top-row[b-vikjpeo9wq] {
         position: sticky;
         top: 0;
         z-index: 1;
     }
 
-    .top-row[b-cxkrjcrcky], article[b-cxkrjcrcky] {
+    .top-row[b-vikjpeo9wq], article[b-vikjpeo9wq] {
         padding-left: 2rem !important;
         padding-right: 1.5rem !important;
     }

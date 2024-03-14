@@ -1,6 +1,0 @@
-/Users/rah/repos/bonsai/Bonsai/obj/Debug/net7.0/net8.0/Bonsai.CLI.csproj.AssemblyReference.cache
-/Users/rah/repos/bonsai/Bonsai/obj/Debug/net7.0/net8.0/Bonsai.CLI.GeneratedMSBuildEditorConfig.editorconfig
-/Users/rah/repos/bonsai/Bonsai/obj/Debug/net7.0/net8.0/Bonsai.CLI.AssemblyInfoInputs.cache
-/Users/rah/repos/bonsai/Bonsai/obj/Debug/net7.0/net8.0/Bonsai.CLI.AssemblyInfo.cs
-/Users/rah/repos/bonsai/Bonsai/obj/Debug/net7.0/net8.0/Bonsai.CLI.csproj.CoreCompileInputs.cache
-/Users/rah/repos/bonsai/Bonsai/obj/Debug/net7.0/net8.0/Bonsai.CLI.sourcelink.json

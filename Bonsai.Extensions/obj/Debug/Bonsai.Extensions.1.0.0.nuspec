@@ -5,7 +5,7 @@
     <version>1.0.0</version>
     <authors>Bonsai.Extensions</authors>
     <description>Package Description</description>
-    <repository type="git" commit="d7dcace9fc7dbc6b92acd0134d90f21ba8ba7adc" />
+    <repository type="git" commit="f459e7c5f6bb7aca1335060c5d1b182241d0fb41" />
     <dependencies>
       <group targetFramework=".NETStandard2.1">
         <dependency id="System.Reactive" version="6.0.1-preview.1" exclude="Build,Analyzers" />

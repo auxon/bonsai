@@ -28,7 +28,7 @@ public final class R {
 		public static final int top = 0x7f0801d8;
 	}
 	public static final class style {
-		public static final int Widget_Support_CoordinatorLayout = 0x7f0f0429;
+		public static final int Widget_Support_CoordinatorLayout = 0x7f100429;
 	}
 	public static final class styleable {
 		public static final int[] CoordinatorLayout = new int[] { 0x7f03023d, 0x7f0303d2 };
