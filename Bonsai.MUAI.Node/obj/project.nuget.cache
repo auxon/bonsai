@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+LHxI3khaQf2oaabcNDxEBM9CDUwn+0c3+oFxLqROP/gNSQwqEoEGtjCKRYj3dQBsvSEtZ/UJ+RRi2YNGQwSSA==",
+  "dgSpecHash": "1GU/PydU51TLCqKjulWibwk6jOoF0EbHMN94bWKtlq6JNOGHc8HLAQdV1qQCm16N4N6kBMz1Bc9sJXdJwQVEYw==",
   "success": true,
   "projectFilePath": "/Users/rah/repos/bonsai/Bonsai.MUAI.Node/Botcoin.Maui.Node.csproj",
   "expectedPackageFiles": [
@@ -120,8 +120,8 @@
     "/Users/rah/.nuget/packages/xamarin.kotlinx.coroutines.core.jvm/1.6.4.1/xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512",
     "/Users/rah/.nuget/packages/microsoft.netcore.app.runtime.mono.android-arm/7.0.17/microsoft.netcore.app.runtime.mono.android-arm.7.0.17.nupkg.sha512",
     "/Users/rah/.nuget/packages/microsoft.netcore.app.runtime.mono.android-arm64/7.0.17/microsoft.netcore.app.runtime.mono.android-arm64.7.0.17.nupkg.sha512",
-    "/Users/rah/.nuget/packages/microsoft.netcore.app.runtime.mono.android-x86/7.0.17/microsoft.netcore.app.runtime.mono.android-x86.7.0.17.nupkg.sha512",
     "/Users/rah/.nuget/packages/microsoft.netcore.app.runtime.mono.android-x64/7.0.17/microsoft.netcore.app.runtime.mono.android-x64.7.0.17.nupkg.sha512",
+    "/Users/rah/.nuget/packages/microsoft.netcore.app.runtime.mono.android-x86/7.0.17/microsoft.netcore.app.runtime.mono.android-x86.7.0.17.nupkg.sha512",
     "/Users/rah/.nuget/packages/microsoft.ios.ref/16.4.7141/microsoft.ios.ref.16.4.7141.nupkg.sha512",
     "/Users/rah/.nuget/packages/microsoft.ios.runtime.iossimulator-x64/16.4.7141/microsoft.ios.runtime.iossimulator-x64.16.4.7141.nupkg.sha512",
     "/Users/rah/.nuget/packages/microsoft.maccatalyst.ref/16.4.7141/microsoft.maccatalyst.ref.16.4.7141.nupkg.sha512",

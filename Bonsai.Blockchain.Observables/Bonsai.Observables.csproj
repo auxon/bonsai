@@ -16,18 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="QActive">
-      <HintPath>..\..\Qactive\QActive\bin\Debug\netstandard2.0\QActive.dll</HintPath>
-    </Reference>
-    <Reference Include="QActive.Expressions">
-      <HintPath>..\..\Qactive\QActive.Expressions\bin\Debug\netstandard2.0\QActive.Expressions.dll</HintPath>
-    </Reference>
-    <Reference Include="QActive.Providers.Streaming">
-      <HintPath>..\..\Qactive\QActive.Providers.Streaming\bin\Debug\netstandard2.0\QActive.Providers.Streaming.dll</HintPath>
-    </Reference>
-    <Reference Include="QActive.Providers.Tcp">
-      <HintPath>..\..\Qactive\QActive.Providers.Tcp\bin\Debug\netstandard2.0\QActive.Providers.Tcp.dll</HintPath>
-    </Reference>
     <Reference Include="Qactive.Providers.Tcp">
       <HintPath>..\..\Qactive\Examples\QbservableServer\bin\Debug\bin\Qactive.Providers.Tcp.dll</HintPath>
     </Reference>
