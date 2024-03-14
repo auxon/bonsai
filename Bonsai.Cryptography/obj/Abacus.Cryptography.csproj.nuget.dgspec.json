@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/rah/repos/bonsai/Abacus.Cryptography/Abacus.Cryptography.csproj": {}
+  },
+  "projects": {
+    "/Users/rah/repos/bonsai/Abacus.Cryptography/Abacus.Cryptography.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rah/repos/bonsai/Abacus.Cryptography/Abacus.Cryptography.csproj",
+        "projectName": "Abacus.Cryptography",
+        "projectPath": "/Users/rah/repos/bonsai/Abacus.Cryptography/Abacus.Cryptography.csproj",
+        "packagesPath": "/Users/rah/.nuget/packages/",
+        "outputPath": "/Users/rah/repos/bonsai/Abacus.Cryptography/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rah/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "/Users/rah/repos/macos/ThirdPartyLibs/SQLCipher/MacOS": {},
+          "/Users/rah/repos/macos/ThirdPartyLibs/nuget": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[6.0.1-preview.1, )"
+            },
+            "System.Reactive.Core": {
+              "target": "Package",
+              "version": "[6.0.1-preview.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

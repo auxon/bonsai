@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "ufBGVSsEsfSmPHOwvdhmkqFdXaO8wVQwzSFcAyV3mPEbx/H4H7x1oa3gGA4zpzWwMRXYLXJ1vIgZ0ZbhPo/BNw==",
+  "success": true,
+  "projectFilePath": "/Users/rah/repos/bonsai/Botcoin.Node/Botcoin.Node.csproj",
+  "expectedPackageFiles": [
+    "/Users/rah/.nuget/packages/ensure.that/8.0.0/ensure.that.8.0.0.nupkg.sha512",
+    "/Users/rah/.nuget/packages/mynatsclient/0.12.0-pre1/mynatsclient.0.12.0-pre1.nupkg.sha512",
+    "/Users/rah/.nuget/packages/mynatsclient.rx/0.12.0-pre1/mynatsclient.rx.0.12.0-pre1.nupkg.sha512",
+    "/Users/rah/.nuget/packages/serialize.linq/1.7.0/serialize.linq.1.7.0.nupkg.sha512",
+    "/Users/rah/.nuget/packages/system.reactive/4.0.0-preview.3.build.380/system.reactive.4.0.0-preview.3.build.380.nupkg.sha512",
+    "/Users/rah/.nuget/packages/system.reactive.interfaces/4.0.0-preview.2.build.380/system.reactive.interfaces.4.0.0-preview.2.build.380.nupkg.sha512",
+    "/Users/rah/.nuget/packages/system.security.accesscontrol/4.5.0-rc1/system.security.accesscontrol.4.5.0-rc1.nupkg.sha512",
+    "/Users/rah/.nuget/packages/system.security.permissions/4.5.0-rc1/system.security.permissions.4.5.0-rc1.nupkg.sha512",
+    "/Users/rah/.nuget/packages/system.security.principal.windows/4.5.0-rc1/system.security.principal.windows.4.5.0-rc1.nupkg.sha512"
+  ],
+  "logs": []
+}

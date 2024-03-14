@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="Botcoin.Maui.Node.app/Contents/MacOS/Botcoin.Maui.Node">
+      <BCSymbolMapName>Botcoin.Maui.Node.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>Botcoin.Maui.Node.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/rah/repos/bonsai/Bonsai.MUAI.Node/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>Botcoin.Maui.Node.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/rah/repos/bonsai/Bonsai.MUAI.Node</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

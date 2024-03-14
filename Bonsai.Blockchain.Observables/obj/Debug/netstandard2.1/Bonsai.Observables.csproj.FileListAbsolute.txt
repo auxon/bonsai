@@ -1,0 +1,12 @@
+/Users/rah/repos/bonsai/Abacus.Blockchain.Observables/obj/Debug/netstandard2.1/Bonsai.Observables.csproj.AssemblyReference.cache
+/Users/rah/repos/bonsai/Abacus.Blockchain.Observables/obj/Debug/netstandard2.1/Bonsai.Observables.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rah/repos/bonsai/Abacus.Blockchain.Observables/obj/Debug/netstandard2.1/Bonsai.Observables.AssemblyInfoInputs.cache
+/Users/rah/repos/bonsai/Abacus.Blockchain.Observables/obj/Debug/netstandard2.1/Bonsai.Observables.AssemblyInfo.cs
+/Users/rah/repos/bonsai/Abacus.Blockchain.Observables/obj/Debug/netstandard2.1/Bonsai.Observables.csproj.CoreCompileInputs.cache
+/Users/rah/repos/bonsai/Abacus.Blockchain.Observables/obj/Debug/netstandard2.1/Bonsai.Observables.sourcelink.json
+/Users/rah/repos/bonsai/Bonsai.Blockchain.Observables/obj/Debug/netstandard2.1/Bonsai.Observables.csproj.AssemblyReference.cache
+/Users/rah/repos/bonsai/Bonsai.Blockchain.Observables/obj/Debug/netstandard2.1/Bonsai.Observables.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rah/repos/bonsai/Bonsai.Blockchain.Observables/obj/Debug/netstandard2.1/Bonsai.Observables.AssemblyInfoInputs.cache
+/Users/rah/repos/bonsai/Bonsai.Blockchain.Observables/obj/Debug/netstandard2.1/Bonsai.Observables.AssemblyInfo.cs
+/Users/rah/repos/bonsai/Bonsai.Blockchain.Observables/obj/Debug/netstandard2.1/Bonsai.Observables.csproj.CoreCompileInputs.cache
+/Users/rah/repos/bonsai/Bonsai.Blockchain.Observables/obj/Debug/netstandard2.1/Bonsai.Observables.sourcelink.json

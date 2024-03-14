@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NZ0BI6Z4aMOt2K9zVNh1E2a3MMqlgNrJffgXkB9QNik=",
+  "Hash": "PA/4OLzj+E2wFltdca7B4p8AVUl0MnEOj3e5bp4IASs=",
   "Source": "MauiBlazorNode",
   "BasePath": "/",
   "Mode": "Root",
@@ -10,17 +10,17 @@
     {
       "Name": "MauiBlazorNode/wwwroot",
       "Source": "MauiBlazorNode",
-      "ContentRoot": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/",
+      "ContentRoot": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/",
       "BasePath": "/",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/rah/repos/abacus0/MauiBlazorNode/obj/Debug/net7.0-android/scopedcss/bundle/MauiBlazorNode.styles.css",
+      "Identity": "/Users/rah/repos/bonsai/MauiBlazorNode/obj/Debug/net7.0-android/scopedcss/bundle/MauiBlazorNode.styles.css",
       "SourceId": "MauiBlazorNode",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/rah/repos/abacus0/MauiBlazorNode/obj/Debug/net7.0-android/scopedcss/bundle/",
+      "ContentRoot": "/Users/rah/repos/bonsai/MauiBlazorNode/obj/Debug/net7.0-android/scopedcss/bundle/",
       "BasePath": "/",
       "RelativePath": "MauiBlazorNode.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/rah/repos/abacus0/MauiBlazorNode/obj/Debug/net7.0-android/scopedcss/bundle/MauiBlazorNode.styles.css"
+      "OriginalItemSpec": "/Users/rah/repos/bonsai/MauiBlazorNode/obj/Debug/net7.0-android/scopedcss/bundle/MauiBlazorNode.styles.css"
     },
     {
-      "Identity": "/Users/rah/repos/abacus0/MauiBlazorNode/obj/Debug/net7.0-android/scopedcss/projectbundle/MauiBlazorNode.bundle.scp.css",
+      "Identity": "/Users/rah/repos/bonsai/MauiBlazorNode/obj/Debug/net7.0-android/scopedcss/projectbundle/MauiBlazorNode.bundle.scp.css",
       "SourceId": "MauiBlazorNode",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/rah/repos/abacus0/MauiBlazorNode/obj/Debug/net7.0-android/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/rah/repos/bonsai/MauiBlazorNode/obj/Debug/net7.0-android/scopedcss/projectbundle/",
       "BasePath": "/",
       "RelativePath": "MauiBlazorNode.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/rah/repos/abacus0/MauiBlazorNode/obj/Debug/net7.0-android/scopedcss/projectbundle/MauiBlazorNode.bundle.scp.css"
+      "OriginalItemSpec": "/Users/rah/repos/bonsai/MauiBlazorNode/obj/Debug/net7.0-android/scopedcss/projectbundle/MauiBlazorNode.bundle.scp.css"
     },
     {
-      "Identity": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/app.css",
+      "Identity": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/css/app.css",
       "SourceId": "MauiBlazorNode",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/",
+      "ContentRoot": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/",
       "BasePath": "/",
       "RelativePath": "css/app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot/css/app.css"
     },
     {
-      "Identity": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/bootstrap/bootstrap.min.css",
+      "Identity": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/css/bootstrap/bootstrap.min.css",
       "SourceId": "MauiBlazorNode",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/",
+      "ContentRoot": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "Identity": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/css/bootstrap/bootstrap.min.css.map",
       "SourceId": "MauiBlazorNode",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/",
+      "ContentRoot": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/open-iconic/FONT-LICENSE",
+      "Identity": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/css/open-iconic/FONT-LICENSE",
       "SourceId": "MauiBlazorNode",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/",
+      "ContentRoot": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/FONT-LICENSE"
     },
     {
-      "Identity": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "Identity": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "SourceId": "MauiBlazorNode",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/",
+      "ContentRoot": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "Identity": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
       "SourceId": "MauiBlazorNode",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/",
+      "ContentRoot": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.eot"
     },
     {
-      "Identity": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "Identity": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
       "SourceId": "MauiBlazorNode",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/",
+      "ContentRoot": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.otf"
     },
     {
-      "Identity": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "Identity": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
       "SourceId": "MauiBlazorNode",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/",
+      "ContentRoot": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.svg"
     },
     {
-      "Identity": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "Identity": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
       "SourceId": "MauiBlazorNode",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/",
+      "ContentRoot": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.ttf"
     },
     {
-      "Identity": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "Identity": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
       "SourceId": "MauiBlazorNode",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/",
+      "ContentRoot": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.woff"
     },
     {
-      "Identity": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/open-iconic/ICON-LICENSE",
+      "Identity": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/css/open-iconic/ICON-LICENSE",
       "SourceId": "MauiBlazorNode",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/",
+      "ContentRoot": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/ICON-LICENSE"
     },
     {
-      "Identity": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/css/open-iconic/README.md",
+      "Identity": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/css/open-iconic/README.md",
       "SourceId": "MauiBlazorNode",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/",
+      "ContentRoot": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/README.md"
     },
     {
-      "Identity": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/favicon.ico",
+      "Identity": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/favicon.ico",
       "SourceId": "MauiBlazorNode",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/",
+      "ContentRoot": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/",
       "BasePath": "/",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/index.html",
+      "Identity": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/index.html",
       "SourceId": "MauiBlazorNode",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/rah/repos/abacus0/MauiBlazorNode/wwwroot/",
+      "ContentRoot": "/Users/rah/repos/bonsai/MauiBlazorNode/wwwroot/",
       "BasePath": "/",
       "RelativePath": "index.html",
       "AssetKind": "All",

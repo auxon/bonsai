@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Abacus.Cryptography
+build_property.ProjectDir = /Users/rah/repos/bonsai/Abacus.Cryptography/

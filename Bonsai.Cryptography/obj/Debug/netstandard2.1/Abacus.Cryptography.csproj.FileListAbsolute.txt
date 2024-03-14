@@ -1,0 +1,10 @@
+/Users/rah/repos/bonsai/Abacus.Cryptography/bin/Debug/netstandard2.1/Abacus.Cryptography.deps.json
+/Users/rah/repos/bonsai/Abacus.Cryptography/bin/Debug/netstandard2.1/Abacus.Cryptography.dll
+/Users/rah/repos/bonsai/Abacus.Cryptography/bin/Debug/netstandard2.1/Abacus.Cryptography.pdb
+/Users/rah/repos/bonsai/Abacus.Cryptography/obj/Debug/netstandard2.1/Abacus.Cryptography.csproj.AssemblyReference.cache
+/Users/rah/repos/bonsai/Abacus.Cryptography/obj/Debug/netstandard2.1/Abacus.Cryptography.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rah/repos/bonsai/Abacus.Cryptography/obj/Debug/netstandard2.1/Abacus.Cryptography.AssemblyInfoInputs.cache
+/Users/rah/repos/bonsai/Abacus.Cryptography/obj/Debug/netstandard2.1/Abacus.Cryptography.AssemblyInfo.cs
+/Users/rah/repos/bonsai/Abacus.Cryptography/obj/Debug/netstandard2.1/Abacus.Cryptography.csproj.CoreCompileInputs.cache
+/Users/rah/repos/bonsai/Abacus.Cryptography/obj/Debug/netstandard2.1/Abacus.Cryptography.dll
+/Users/rah/repos/bonsai/Abacus.Cryptography/obj/Debug/netstandard2.1/Abacus.Cryptography.pdb

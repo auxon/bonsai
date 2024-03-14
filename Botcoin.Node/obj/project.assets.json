@@ -1,0 +1,861 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.2": {
+      "Ensure.That/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net451/Ensure.That.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net451/Ensure.That.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MyNatsClient/0.12.0-pre1": {
+        "type": "package",
+        "dependencies": {
+          "Ensure.That": "8.0.0"
+        },
+        "compile": {
+          "lib/net451/MyNatsClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net451/MyNatsClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MyNatsClient.Rx/0.12.0-pre1": {
+        "type": "package",
+        "dependencies": {
+          "MyNatsClient": "0.12.0-pre1",
+          "System.Reactive": "3.1.1"
+        }
+      },
+      "Serialize.Linq/1.7.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net45/Serialize.Linq.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Serialize.Linq.dll": {}
+        }
+      },
+      "System.Reactive/4.0.0-preview.3.build.380": {
+        "type": "package",
+        "dependencies": {
+          "System.Reactive.Interfaces": "4.0.0-preview.2.build.380"
+        },
+        "frameworkAssemblies": [
+          "System.Windows",
+          "System.Windows.Forms",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net46/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Reactive.Interfaces/4.0.0-preview.2.build.380": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.5.0-rc1": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Principal.Windows": "4.5.0-rc1"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.AccessControl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.Security.AccessControl.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net461/System.Security.AccessControl.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Permissions/4.5.0-rc1": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0-rc1"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Data",
+          "System.Data.OracleClient",
+          "System.Drawing",
+          "System.Net",
+          "System.ServiceProcess",
+          "System.Transactions",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Permissions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.Security.Permissions.dll": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0-rc1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Principal.Windows.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.Security.Principal.Windows.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net461/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.2/win": {
+      "Ensure.That/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net451/Ensure.That.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net451/Ensure.That.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MyNatsClient/0.12.0-pre1": {
+        "type": "package",
+        "dependencies": {
+          "Ensure.That": "8.0.0"
+        },
+        "compile": {
+          "lib/net451/MyNatsClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net451/MyNatsClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MyNatsClient.Rx/0.12.0-pre1": {
+        "type": "package",
+        "dependencies": {
+          "MyNatsClient": "0.12.0-pre1",
+          "System.Reactive": "3.1.1"
+        }
+      },
+      "Serialize.Linq/1.7.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net45/Serialize.Linq.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Serialize.Linq.dll": {}
+        }
+      },
+      "System.Reactive/4.0.0-preview.3.build.380": {
+        "type": "package",
+        "dependencies": {
+          "System.Reactive.Interfaces": "4.0.0-preview.2.build.380"
+        },
+        "frameworkAssemblies": [
+          "System.Windows",
+          "System.Windows.Forms",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net46/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Reactive.Interfaces/4.0.0-preview.2.build.380": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.5.0-rc1": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Principal.Windows": "4.5.0-rc1"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.AccessControl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net461/System.Security.AccessControl.dll": {}
+        }
+      },
+      "System.Security.Permissions/4.5.0-rc1": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0-rc1"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Data",
+          "System.Data.OracleClient",
+          "System.Drawing",
+          "System.Net",
+          "System.ServiceProcess",
+          "System.Transactions",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Permissions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.Security.Permissions.dll": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0-rc1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Principal.Windows.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net461/System.Security.Principal.Windows.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.2/win-x64": {
+      "Ensure.That/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net451/Ensure.That.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net451/Ensure.That.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MyNatsClient/0.12.0-pre1": {
+        "type": "package",
+        "dependencies": {
+          "Ensure.That": "8.0.0"
+        },
+        "compile": {
+          "lib/net451/MyNatsClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net451/MyNatsClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MyNatsClient.Rx/0.12.0-pre1": {
+        "type": "package",
+        "dependencies": {
+          "MyNatsClient": "0.12.0-pre1",
+          "System.Reactive": "3.1.1"
+        }
+      },
+      "Serialize.Linq/1.7.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net45/Serialize.Linq.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Serialize.Linq.dll": {}
+        }
+      },
+      "System.Reactive/4.0.0-preview.3.build.380": {
+        "type": "package",
+        "dependencies": {
+          "System.Reactive.Interfaces": "4.0.0-preview.2.build.380"
+        },
+        "frameworkAssemblies": [
+          "System.Windows",
+          "System.Windows.Forms",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net46/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Reactive.Interfaces/4.0.0-preview.2.build.380": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.5.0-rc1": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Principal.Windows": "4.5.0-rc1"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.AccessControl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.Security.AccessControl.dll": {}
+        }
+      },
+      "System.Security.Permissions/4.5.0-rc1": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0-rc1"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Data",
+          "System.Data.OracleClient",
+          "System.Drawing",
+          "System.Net",
+          "System.ServiceProcess",
+          "System.Transactions",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Permissions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.Security.Permissions.dll": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0-rc1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Principal.Windows.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.Security.Principal.Windows.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.2/win-x86": {
+      "Ensure.That/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net451/Ensure.That.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net451/Ensure.That.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MyNatsClient/0.12.0-pre1": {
+        "type": "package",
+        "dependencies": {
+          "Ensure.That": "8.0.0"
+        },
+        "compile": {
+          "lib/net451/MyNatsClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net451/MyNatsClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MyNatsClient.Rx/0.12.0-pre1": {
+        "type": "package",
+        "dependencies": {
+          "MyNatsClient": "0.12.0-pre1",
+          "System.Reactive": "3.1.1"
+        }
+      },
+      "Serialize.Linq/1.7.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net45/Serialize.Linq.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Serialize.Linq.dll": {}
+        }
+      },
+      "System.Reactive/4.0.0-preview.3.build.380": {
+        "type": "package",
+        "dependencies": {
+          "System.Reactive.Interfaces": "4.0.0-preview.2.build.380"
+        },
+        "frameworkAssemblies": [
+          "System.Windows",
+          "System.Windows.Forms",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net46/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Reactive.Interfaces/4.0.0-preview.2.build.380": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.5.0-rc1": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Principal.Windows": "4.5.0-rc1"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.AccessControl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.Security.AccessControl.dll": {}
+        }
+      },
+      "System.Security.Permissions/4.5.0-rc1": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0-rc1"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Data",
+          "System.Data.OracleClient",
+          "System.Drawing",
+          "System.Net",
+          "System.ServiceProcess",
+          "System.Transactions",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Permissions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.Security.Permissions.dll": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0-rc1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Principal.Windows.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.Security.Principal.Windows.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ensure.That/8.0.0": {
+      "sha512": "XKIijolZusqx22PQ7v0SMya4tGA1YOGBt1N9q0tRBidlYdZjcQimW2roknt2xwWZDmN/G4yMHlc9Z7Pyi1t3/g==",
+      "type": "package",
+      "path": "ensure.that/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ensure.that.8.0.0.nupkg.sha512",
+        "ensure.that.nuspec",
+        "lib/net451/Ensure.That.dll",
+        "lib/net451/Ensure.That.xml",
+        "lib/netstandard1.1/Ensure.That.dll",
+        "lib/netstandard1.1/Ensure.That.xml",
+        "lib/netstandard2.0/Ensure.That.dll",
+        "lib/netstandard2.0/Ensure.That.xml"
+      ]
+    },
+    "MyNatsClient/0.12.0-pre1": {
+      "sha512": "pca6CJcmxMWE8/A95saHhxdLN1m/69LQtkwvZ7SLlpcswKJoHocOLPbfmCY6rOjGzd2onzvEGQY5eEXpAXs5PQ==",
+      "type": "package",
+      "path": "mynatsclient/0.12.0-pre1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net451/MyNatsClient.dll",
+        "lib/net451/MyNatsClient.xml",
+        "lib/netstandard2.0/MyNatsClient.dll",
+        "lib/netstandard2.0/MyNatsClient.xml",
+        "mynatsclient.0.12.0-pre1.nupkg.sha512",
+        "mynatsclient.nuspec"
+      ]
+    },
+    "MyNatsClient.Rx/0.12.0-pre1": {
+      "sha512": "+oUgXDWnHujVFiuuMQSEi4OSRKNUTzhLIAhcv0JO80RSMmnXuZBfVg9FU+ts0d11UjKJ7cxbkUpytOVnlkAdFw==",
+      "type": "package",
+      "path": "mynatsclient.rx/0.12.0-pre1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "mynatsclient.rx.0.12.0-pre1.nupkg.sha512",
+        "mynatsclient.rx.nuspec"
+      ]
+    },
+    "Serialize.Linq/1.7.0": {
+      "sha512": "TmjL9J8IQi/u84VAbSXV0MJDX4gehYMJpeuCOzSFaQJ5wF+5zoqlO2Alh9UBNGPrgdUO9BS4+j7ZodjHzKzeKg==",
+      "type": "package",
+      "path": "serialize.linq/1.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Serialize.Linq.dll",
+        "lib/net45/Serialize.Linq.dll",
+        "lib/netstandard1.3/Serialize.Linq.dll",
+        "lib/netstandard2.0/Serialize.Linq.dll",
+        "lib/uap10.0/Serialize.Linq.dll",
+        "lib/uap10.0/Serialize.Linq.pri",
+        "serialize.linq.1.7.0.nupkg.sha512",
+        "serialize.linq.nuspec"
+      ]
+    },
+    "System.Reactive/4.0.0-preview.3.build.380": {
+      "sha512": "Xd3OsEMJbWkwscRugXthZZN3gz6vuT8TT1eu6qQVwcFvjQwXAdHoWgUrQ/ke8RErAG7S5e1UcYgpWsZhNsUJPA==",
+      "type": "package",
+      "path": "system.reactive/4.0.0-preview.3.build.380",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Reactive.dll",
+        "lib/net45/System.Reactive.xml",
+        "lib/net46/System.Reactive.dll",
+        "lib/net46/System.Reactive.xml",
+        "lib/netstandard1.3/System.Reactive.dll",
+        "lib/netstandard1.3/System.Reactive.xml",
+        "lib/netstandard2.0/System.Reactive.dll",
+        "lib/netstandard2.0/System.Reactive.xml",
+        "lib/uap10.0/System.Reactive.dll",
+        "lib/uap10.0/System.Reactive.pri",
+        "lib/uap10.0/System.Reactive.xml",
+        "system.reactive.4.0.0-preview.3.build.380.nupkg.sha512",
+        "system.reactive.nuspec"
+      ]
+    },
+    "System.Reactive.Interfaces/4.0.0-preview.2.build.380": {
+      "sha512": "VQudsWEFHRNRIjNA9TbLGzGW2tTT6QRMoum+1mP/xyyw3y7T2nfavMddnew8Lx8CRrE6+3J4n16XWn/QYTF/GA==",
+      "type": "package",
+      "path": "system.reactive.interfaces/4.0.0-preview.2.build.380",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Reactive.Interfaces.dll",
+        "lib/net45/System.Reactive.Interfaces.xml",
+        "lib/netstandard1.3/System.Reactive.Interfaces.dll",
+        "lib/netstandard1.3/System.Reactive.Interfaces.xml",
+        "system.reactive.interfaces.4.0.0-preview.2.build.380.nupkg.sha512",
+        "system.reactive.interfaces.nuspec"
+      ]
+    },
+    "System.Security.AccessControl/4.5.0-rc1": {
+      "sha512": "5Gn9HlZ28Kva9hQ2cwYGSj6HEqQ/VAY40FtElPpwzFaxZ5U9SA6mwekZr80gh+s5sSmMVTaskzt93146OD8wSQ==",
+      "type": "package",
+      "path": "system.security.accesscontrol/4.5.0-rc1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.dll",
+        "lib/netstandard1.3/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.dll",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/System.Security.AccessControl.dll",
+        "ref/netstandard1.3/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/de/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/es/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/fr/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/it/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ja/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ko/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ru/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/System.Security.AccessControl.dll",
+        "ref/netstandard2.0/System.Security.AccessControl.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/win/lib/net46/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.AccessControl.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.accesscontrol.4.5.0-rc1.nupkg.sha512",
+        "system.security.accesscontrol.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Permissions/4.5.0-rc1": {
+      "sha512": "/voRVsyagTTw5lFI0Q2BONKSbFwlv2dF6NWlnT/gUHF1oaprUs1IZqsGSq+b3F2FMxclX/zfuQwPu8zkusGRxw==",
+      "type": "package",
+      "path": "system.security.permissions/4.5.0-rc1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Security.Permissions.dll",
+        "lib/netstandard2.0/System.Security.Permissions.dll",
+        "ref/net461/System.Security.Permissions.dll",
+        "ref/net461/System.Security.Permissions.xml",
+        "ref/netstandard2.0/System.Security.Permissions.dll",
+        "ref/netstandard2.0/System.Security.Permissions.xml",
+        "system.security.permissions.4.5.0-rc1.nupkg.sha512",
+        "system.security.permissions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Principal.Windows/4.5.0-rc1": {
+      "sha512": "q/tdUxxtbLDvW4PK4CiDsYKFa5dmzEq6JVrC1PPQO61n5ajoA64mMO92Wu6fiXNkW7Ed/XS+Kt8iW+UDXHPXJA==",
+      "type": "package",
+      "path": "system.security.principal.windows/4.5.0-rc1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.dll",
+        "lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/netstandard2.0/System.Security.Principal.Windows.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net46/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.principal.windows.4.5.0-rc1.nupkg.sha512",
+        "system.security.principal.windows.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.2": [
+      "MyNatsClient.Rx >= 0.12.0-pre1",
+      "Serialize.Linq >= 1.7.0",
+      "System.Reactive >= 4.0.0-preview.3.build.380",
+      "System.Security.Permissions >= 4.5.0-rc1"
+    ]
+  },
+  "packageFolders": {
+    "/Users/rah/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/rah/repos/bonsai/Botcoin.Node/Botcoin.Node.csproj",
+      "projectName": "Abacus.Node",
+      "projectPath": "/Users/rah/repos/bonsai/Botcoin.Node/Botcoin.Node.csproj",
+      "packagesPath": "/Users/rah/.nuget/packages/",
+      "outputPath": "/Users/rah/repos/bonsai/Botcoin.Node/obj/",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "/Users/rah/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net462"
+      ],
+      "sources": {
+        "/Users/rah/macos/ThirdPartyLibs/SQLCipher": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net462": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net462": {
+        "dependencies": {
+          "MyNatsClient.Rx": {
+            "target": "Package",
+            "version": "[0.12.0-pre1, )"
+          },
+          "Serialize.Linq": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          },
+          "System.Reactive": {
+            "target": "Package",
+            "version": "[4.0.0-preview.3.build.380, )"
+          },
+          "System.Security.Permissions": {
+            "target": "Package",
+            "version": "[4.5.0-rc1, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

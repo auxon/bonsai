@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "Zt8F9z5hH/KA2OfXeydU0df6BX9KNmpLBCcMHFJvaf/BWBCNLUJ16T2H74u2G1IgOjfAz56JrGvoFHcKHAfMfA==",
+  "success": true,
+  "projectFilePath": "/Users/rah/repos/bonsai/Bonsai.Blockchain.Observables/Bonsai.Observables.csproj",
+  "expectedPackageFiles": [
+    "/Users/rah/.nuget/packages/microsoft.bcl.asyncinterfaces/9.0.0-preview.1.24080.9/microsoft.bcl.asyncinterfaces.9.0.0-preview.1.24080.9.nupkg.sha512",
+    "/Users/rah/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/rah/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/Users/rah/.nuget/packages/system.numerics.vectors/4.4.0/system.numerics.vectors.4.4.0.nupkg.sha512",
+    "/Users/rah/.nuget/packages/system.reactive/6.0.1-preview.1/system.reactive.6.0.1-preview.1.nupkg.sha512",
+    "/Users/rah/.nuget/packages/system.reactive.core/6.0.1-preview.1/system.reactive.core.6.0.1-preview.1.nupkg.sha512",
+    "/Users/rah/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/rah/.nuget/packages/system.text.encodings.web/9.0.0-preview.1.24080.9/system.text.encodings.web.9.0.0-preview.1.24080.9.nupkg.sha512",
+    "/Users/rah/.nuget/packages/system.text.json/9.0.0-preview.1.24080.9/system.text.json.9.0.0-preview.1.24080.9.nupkg.sha512",
+    "/Users/rah/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

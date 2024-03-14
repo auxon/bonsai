@@ -1,0 +1,5 @@
+/Users/rah/repos/bonsai/Abacus.Blockchain.Observables/obj/Debug/netstandard2.1/Abacus.Observables.Blockchain.csproj.AssemblyReference.cache
+/Users/rah/repos/bonsai/Abacus.Blockchain.Observables/obj/Debug/netstandard2.1/Abacus.Observables.Blockchain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rah/repos/bonsai/Abacus.Blockchain.Observables/obj/Debug/netstandard2.1/Abacus.Observables.Blockchain.AssemblyInfoInputs.cache
+/Users/rah/repos/bonsai/Abacus.Blockchain.Observables/obj/Debug/netstandard2.1/Abacus.Observables.Blockchain.AssemblyInfo.cs
+/Users/rah/repos/bonsai/Abacus.Blockchain.Observables/obj/Debug/netstandard2.1/Abacus.Observables.Blockchain.csproj.CoreCompileInputs.cache

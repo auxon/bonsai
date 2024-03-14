@@ -1,0 +1,2 @@
+/Users/rah/repos/bonsai/Botcoin.Node/obj/Debug/Botcoin.Node.csproj.AssemblyReference.cache
+/Users/rah/repos/bonsai/Botcoin.Node/obj/Debug/Botcoin.Node.csproj.CoreCompileInputs.cache

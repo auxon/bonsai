@@ -1,0 +1,10 @@
+/Users/rah/repos/bonsai/Abacus.Extensions/bin/Debug/netstandard2.1/Abacus.Extensions.deps.json
+/Users/rah/repos/bonsai/Abacus.Extensions/bin/Debug/netstandard2.1/Abacus.Extensions.dll
+/Users/rah/repos/bonsai/Abacus.Extensions/bin/Debug/netstandard2.1/Abacus.Extensions.pdb
+/Users/rah/repos/bonsai/Abacus.Extensions/obj/Debug/netstandard2.1/Abacus.Extensions.csproj.AssemblyReference.cache
+/Users/rah/repos/bonsai/Abacus.Extensions/obj/Debug/netstandard2.1/Abacus.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rah/repos/bonsai/Abacus.Extensions/obj/Debug/netstandard2.1/Abacus.Extensions.AssemblyInfoInputs.cache
+/Users/rah/repos/bonsai/Abacus.Extensions/obj/Debug/netstandard2.1/Abacus.Extensions.AssemblyInfo.cs
+/Users/rah/repos/bonsai/Abacus.Extensions/obj/Debug/netstandard2.1/Abacus.Extensions.csproj.CoreCompileInputs.cache
+/Users/rah/repos/bonsai/Abacus.Extensions/obj/Debug/netstandard2.1/Abacus.Extensions.dll
+/Users/rah/repos/bonsai/Abacus.Extensions/obj/Debug/netstandard2.1/Abacus.Extensions.pdb

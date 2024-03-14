@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = Bonsai.Cryptography
+build_property.ProjectDir = /Users/rah/repos/bonsai/Bonsai.Cryptography/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
