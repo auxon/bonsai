@@ -5,7 +5,7 @@ Version:  v0.1.0.1
 
 Author:  EntangleIT.com == RAH@EntangleIT.com / Auxon0@hotmail.com / Richard.Hein@gmail.com
 
-Paymail:  $auxon11, auxon@moneybutton.com, RichardHein@moneybutton.com
+Paymail:  $auxon11
 
 PGP fingerprint:  F6CC D83D DF70 FA93 0AF1 5443 863E C244 E60D AEEC
 
