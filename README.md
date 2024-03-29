@@ -1,3 +1,5 @@
+
+![alt_text](bonsai.png "Bonsai")
 ![alt text](Default_Bonsai_Tree_highly_stylized_for_a_company_logo_3.jpg "Bonsai")
 
 Bonsai:  A Bitcoin Software Development Environment by EntangleIT.com
