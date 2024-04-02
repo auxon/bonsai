@@ -65,7 +65,7 @@ namespace Bonsai.Observables.Blockchain
         {
             var sb = new StringBuilder();
             sb.AppendLine($@"##################################################################################################");
-            sb.AppendLine($@"#  ABACUS BLOCK v{Version.ToString(2)} | Magic:  {MagicNumber}");
+            sb.AppendLine($@"#  BONSAI!!!cd BLOCK v{Version.ToString(2)} | Magic:  {MagicNumber}");
             sb.AppendLine($@"#  Height:  {Height} | Timestamp:  {Timestamp} | Difficulty:  {Difficulty}");
             sb.AppendLine($@"#  Hash:  {Hash}  | Nonce:  {Nonce}");
             sb.AppendLine($@"#  Prev:  {PreviousBlockHash}");
