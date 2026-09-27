@@ -1,6 +1,22 @@
 ![alt_text](bonsai.png "Bonsai")
 ![alt text](Default_Bonsai_Tree_highly_stylized_for_a_company_logo_3.jpg "Bonsai")
 
+> **Status: archived prototype (2026-09-27).** This code stopped in 2024 and
+> does not build as cloned — it needs a sibling Qactive checkout, and
+> `Blockchain.cs` will not compile. The one idea worth keeping — *run the
+> query where the data is, push the matches to the subscriber* — shipped in
+> [bsvOS](https://github.com/auxon/bsv-os) as `bsv watch` / `watch_poll` /
+> `GET /v1/watch`: one filtered, cursor-based tail over everything the wallet
+> does, so agents subscribe instead of polling. The full audit (what was real,
+> what was README vapourware, and which defects are load-bearing) is in
+> [bsv-os/docs/BONSAI.md](https://github.com/auxon/bsv-os/blob/main/docs/BONSAI.md).
+> The repository is kept as written, as a record.
+>
+> Two ideas from the audit are still open in bsvOS: unifying streams,
+> capsules, and cast beats into one timed-commitment primitive
+> (`Timechain` here), and proof-of-funds without disclosure
+> ("MPC for critical data" here).
+
 Bonsai:  A Bitcoin Software Development Environment by EntangleIT.com
 Version:  v0.1.0.1
 
